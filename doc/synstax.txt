@@ -1,0 +1,103 @@
+*synstax.txt*           For Vim version 8               Last change: 2018 May 11
+*synstax* *vim-synstax*
+
+
+                                              O))                     ~
+                                              O))                     ~
+             O)))) O))   O))O)) O))   O)))) O)O) O)   O))    O))   O))~
+            O))     O)) O))  O))  O))O))      O))   O))  O))   O) O)) ~
+              O)))    O)))   O))  O))  O)))   O))  O))   O))    O)    ~
+                O))    O))   O))  O))    O))  O))  O))   O))  O)  O)) ~
+            O)) O))   O))   O)))  O))O)) O))   O))   O)) O)))O))   O))~
+                    O))                                               ~
+
+                            For syntax highlighting
+
+==============================================================================
+CONTENTS                                                      *synstax-contents*
+
+    1. Intro ................................................... |synstax-intro|
+    2. Usage ................................................... |synstax-usage|
+    3. Functions ........................................... |synstax-functions|
+    4. License ............................................... |synstax-license|
+    5. Bugs ..................................................... |synstax-bugs|
+    6. Contributing ..................................... |synstax-contributing|
+    7. Credits ............................................... |synstax-credits|
+    8. Changelog ........................................... |synstax-changelog|
+
+==============================================================================
+INTRO                                                            *synstax-intro*
+
+synstax is a vim plugin that contains
+
+    - a set of autoloaded functions for getting syntax information
+
+==============================================================================
+USAGE                                                            *synstax-usage*
+
+Install it with your favorite plugin manager, and then call one if its
+functions.
+
+synstax provides no mappings by default, and currently doesn't plan to do so.
+If you want a mapping, you should call the appropriate function, e.g. >
+    nnoremap <Leader>s :echo synstax#UnderCursor()<CR>
+<
+==============================================================================
+FUNCTIONS                                                    *synstax-functions*
+
+* *synstax#UnderCursor*
+Probably the most useful function, and the one that inspired it.
+Returns a list of highlight groups under the cursor.
+Usage: >
+    echo synstax#UnderCursor()
+<
+* *synstax#Stack*
+Returns a list representing the syntax stack.
+Usage: >
+    echo synstax#Stack(line, col)
+<
+* *synstax#Attributes*
+Returns a list representing an attribute of each of the given syntax IDs.
+Usage: >
+    echo synstax#Attributes(stack, 'name')
+<
+==============================================================================
+LICENSE                                                        *synstax-license*
+
+MIT License. Copyright © 2018 D. Ben Knoble.
+Full text available at
+https://github.com/benknoble/vim-syntax/blob/master/LICENSE
+
+==============================================================================
+BUGS                                                              *synstax-bugs*
+
+At the time of this writing, no major bugs have been found.
+
+If you find one and wish to report it, you can do so at
+https://github.com/benknoble/vim-synstax/issues
+
+==============================================================================
+CONTRIBUTING                                              *synstax-contributing*
+
+Want to submit a new feature, bugfix, or hack on synstax?
+Submit pull requests to
+https://github.com/benknoble/vim-synstax/pulls
+
+Existing code determines style guidelines.
+
+==============================================================================
+CREDITS                                                        *synstax-credits*
+
+Maintained by:
+- D. Ben Knoble ( https://github.com/benknoble )
+
+Git repository:
+https://github.com/benknoble/vim-syntax
+
+==============================================================================
+CHANGELOG                                                    *synstax-changelog*
+
+*v1.0.0*                                                          27 August 2017
+  * Initial release
+
+ vim:tw=78:ts=8:ft=help:norl:
