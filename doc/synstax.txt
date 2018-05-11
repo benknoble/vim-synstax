@@ -23,6 +23,7 @@ CONTENTS                                                      *synstax-contents*
     5. Bugs ..................................................... |synstax-bugs|
     6. Contributing ..................................... |synstax-contributing|
     7. Credits ............................................... |synstax-credits|
+    8. Changelog ........................................... |synstax-changelog|
 
 ==============================================================================
 INTRO                                                            *synstax-intro*
@@ -92,5 +93,11 @@ Maintained by:
 
 Git repository:
 https://github.com/benknoble/vim-syntax
+
+==============================================================================
+CHANGELOG                                                    *synstax-changelog*
+
+*v1.0.0*                                                          27 August 2017
+  * Initial release
 
  vim:tw=78:ts=8:ft=help:norl:
