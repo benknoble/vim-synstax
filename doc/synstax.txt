@@ -66,7 +66,7 @@ LICENSE                                                        *synstax-license*
 
 MIT License. Copyright © 2018 D. Ben Knoble.
 Full text available at
-https://github.com/benknoble/vim-syntax/blob/master/LICENSE
+https://github.com/benknoble/vim-synstax/blob/master/LICENSE
 
 ==============================================================================
 BUGS                                                              *synstax-bugs*
