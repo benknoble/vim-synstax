@@ -1,5 +1,7 @@
 # vim-synstax
 
+[![This project is considered finished](https://img.shields.io/badge/status-finished-success.svg)](https://benknoble.github.io/status/finished/)
+
 Vim plugin for interacting with syntax highlighting
 
 It provides an autoloaded functional interface to syntax groups, like
